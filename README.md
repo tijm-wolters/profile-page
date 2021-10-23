@@ -1,2 +1,2 @@
 # profile-page
-https://itijm.com My personal website!
+https://itijm.com/ My personal website!
