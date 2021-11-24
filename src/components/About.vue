@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  margin: 32px 128px;
+  margin: 32px;
 }
 p {
   margin: 0;
