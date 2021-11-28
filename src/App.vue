@@ -1,39 +1,17 @@
-<template>
-  <div class="content">
-    <Header />
-    <Divider text="About" />
-    <About />
-  </div>
-</template>
-
 <script>
-import About from './components/About.vue';
-import Divider from './components/Divider.vue';
-import Header from './components/Header.vue';
-
-export default {
-  name: 'App',
-  components: {
-    About,
-    Divider,
-    Header,
-  },
-};
 </script>
 
-<style lang="scss">
+<template>
+<main></main>
+</template>
+
+<style>
 #app {
-  color: white;
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-  justify-content: center;
-  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-}
-.content {
-  max-width: 1080px;
-}
-body {
-  background-color: $background-color;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
